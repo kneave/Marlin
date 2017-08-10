@@ -136,3 +136,4 @@ CMakeListsPrivate.txt
 
 #CLion
 cmake-build-*
+.vscode/
