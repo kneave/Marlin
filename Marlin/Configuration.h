@@ -760,7 +760,7 @@
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS 210
-#define Y_MAX_POS 270
+#define Y_MAX_POS 260
 #define Z_MAX_POS 180
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
@@ -904,10 +904,10 @@
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   #define UBL_PROBE_PT_1_X 39       // Probing points for 3-Point leveling of the mesh
-  #define UBL_PROBE_PT_1_Y 180
+  #define UBL_PROBE_PT_1_Y 160
   #define UBL_PROBE_PT_2_X 39
   #define UBL_PROBE_PT_2_Y 60
-  #define UBL_PROBE_PT_3_X 180
+  #define UBL_PROBE_PT_3_X 160
   #define UBL_PROBE_PT_3_Y 60
 
   #define UBL_G26_MESH_VALIDATION   // Enable G26 mesh validation
